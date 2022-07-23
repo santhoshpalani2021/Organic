@@ -1,0 +1,147 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*
+{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar
+{
+    background-color: black !important;
+    position:sticky;
+    
+}
+#navbarSupportedContent a
+{
+    color: white;
+    
+}
+.navbar a{
+    color: white;
+}
+#navbar
+{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    padding: .5rem 5rem;
+    z-index: 100;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+
+}
+#navbarSupportedContent a:hover
+{
+    border-bottom: 2px solid rgb(37, 194, 16);
+}
+
+
+
+
+
+section
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home
+{
+    background: linear-gradient(rgba(8, 218, 54, 0.7),rgba(5, 163, 26, 0.7)),url(backgroundimage.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    
+}
+#home h1{
+        color: white;
+        font-size: 100px;
+        font-weight: 500;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: 0px 1px 2px #ccc,
+                     0px 2px 2px #ccc,
+                     0px 3px 2px #ccc,
+                     0px 4px 2px #ccc,
+                     0px 5px 2px #ccc;
+                    
+}
+#home marquee{
+    color: white;
+}
+#home .input-group
+{
+    width: 40%;
+    height: 45px;
+    box-shadow: 2px 4px 5px rgb(0, 0, rgba(0,0,0,.5));
+}
+#home .signin
+{
+    background-color: blue !important;
+    color: white !important;
+    box-shadow: 2px 4px 5px rgb(0, 0, rgba(0,0,0,.5));
+}
+
+
+
+
+#about img
+{
+    width: 70%;
+    height: 100%;
+}
+#about
+{
+    background:linear-gradient(#ea1d6f,#eb466b 100%);
+}
+#about #aboutus
+{
+    text-align: justify;
+   
+  
+
+}
+#about #aboutus:hover
+{
+    background-color:rgb(34, 24, 24) ;
+}
+#about h2{
+    align-items: center;
+    text-align: center;
+}
+#product img
+{
+    width: 200px;
+    height: 200px;
+    
+}
+#contact form-control
+{
+    margin-top: 10px;
+}
+#contact textarea
+{
+    margin-top: 10px;
+}
+#contact input
+{
+    margin-top: 10px;
+}
+#contact button
+{
+    margin-top: 10px;
+}
+
+.singup
+{
+    margin: 5px 5px;
+}
+.signin
+
+{
+    margin-left: 8px;
+}

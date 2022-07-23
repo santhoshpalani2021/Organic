@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,400;1,500&family=Poppins:wght@300&display=swap');
+
+body
+{
+    font-family: "Barlow", sans-serif;
+    line-height: 1.7;
+    color: #516171;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700 !important;
+    color: #092032;
+
+}
+a{
+    color: #092032;
+    
+}
+img{
+    width: 100%;
+}
+a
+{
+   color: black;
+   text-decoration: none;
+   transition: all 0.4s ease;
+   font-weight: 700;
+    
+}
+
+/*navbar*/
+.nav-top{
+    background-color: #ff4d29;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nav-top p{
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 16px;
+    color: #ffff;
+}
+.nav-top i,
+.nav-top span
+{
+    vertical-align: middle;
+}
+.social-links a
+{
+    width: 20%;
+    height: 20%;
+    background-color: rgba(255, 255,255, 0.4);
+    border-radius: 50%;
+    border: none;
+    padding: 5px;
+    margin-left: 20px;
+    color: white;   
+}
+.social-links a:hover{
+    background-color: white;
+}
+/* navbar*/
+.navbar
+{
+    box-shadow: 0px 6px 30px rgba(0,0,0, 0.08);
+}
+.navbar .btn
+{
+    padding: 9px 24px;
+    
+    
+}
+ .navbar .btn-brand
+{
+    background-color: #ff4d29;
+    color: white;
+    margin-right: -100px;
+    margin-left: 50px;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active
+{
+    color: #ff4d29;
+    cursor: pointer;
+}
+.navbar .navbar-brand
+{
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+.navbar .navbar-brand span
+{
+    color: #ff4d29;
+}
+.slider1
+{
+    background-image:    url(../images/bg4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-wrapper .slider1 .btn
+{
+    padding: 9px 24px;
+}
+.slider-wrapper .slider1 .btn-brand
+{
+    background-color: #ff4d29;
+    color: white;
+}
+
+/*about*/
+.about .row
+{
+    background-color: #ff4d29;
+    max-height:80%;
+}
